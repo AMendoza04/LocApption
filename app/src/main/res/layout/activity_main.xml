@@ -19,6 +19,7 @@
         android:id="@+id/ibtn_cam"
         android:layout_width="281dp"
         android:layout_height="272dp"
+        android:paddingBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,22 +29,26 @@
         android:id="@+id/tv_contacts"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="@string/contactos"
         android:textSize="35sp"
         android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        />
 
     <TextView
         android:id="@+id/tv_cam"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
+        android:gravity="center"
         android:text="@string/cam"
         android:textSize="35sp"
         android:textStyle="bold"
+        android:paddingBottom="15dp"
         app:layout_constraintBottom_toTopOf="@+id/ibtn_cam"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
